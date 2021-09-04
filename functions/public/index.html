@@ -3,87 +3,78 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+    <title>内村文化祭’21 満面</title>
+    <meta name="description" content="ウッチャンナンチャンファンの皆さま必見！内村文化祭’21 満面ではTシャツ、ハンドタオル、トートバッグ、キーホルダーなどの人気グッズを数量限定で販売中です！購入をご希望の方はぜひご利用ください！">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon-logo-ver1.0.png">
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/9.0.1/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/9.0.1/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/9.0.1/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/9.0.1/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/9.0.1/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/9.0.1/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/9.0.1/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/9.0.1/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/9.0.1/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/9.0.1/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+    <meta property="og:url" content="https://uchimura-live2021.selforder.live/">
+    <meta property="og:title" content="内村文化祭’21 満面">
+    <meta property="og:site_name" content="内村文化祭’21 満面">
+    <meta property="og:description" content="ウッチャンナンチャンファンの皆さま必見！内村文化祭’21 満面ではTシャツ、ハンドタオル、トートバッグ、キーホルダーなどの人気グッズを数量限定で販売中です！購入をご希望の方はぜひご利用ください！">
+    <meta property="og:image" content="https://uchimura-live2021.selforder.live/images/ogp_image.png">
+    <meta property="og:type" content="website">
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N6Z8QFG3S4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-N6Z8QFG3S4');
+    </script>
   </head>
   <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
-    </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+    <main>
+      <h1>
+        <img src="images/top_pc.png" alt="内村文化祭’21 満面" class="pc">
+        <img src="images/top_sp.png" alt="内村文化祭’21 満面" class="sp">
+      </h1>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
+      <section class="section-schedule">
+        <h2>
+          <img src="images/schedule_pc.png" alt="ウッチャンナンチャンのファンの皆さま必見！大人気グッズを期間限定で取り揃えました！" class="pc">
+          <img src="images/schedule_sp.png" alt="ウッチャンナンチャンのファンの皆さま必見！大人気グッズを期間限定で取り揃えました！" class="sp">
+        </h2>
+      </section>
+      <section class="section-button">
+        <div class="button-shop-list">
+          <div class="button-shop-list__item">
+            <a href="https://lin.ee/R01CVrC">
+              <img src="images/button_line_friend.png" alt="LINEお友達登録">
+            </a>
+          </div>
+          <div class="button-shop-list__item">
+            <a href="https://store.selforder.live/collections/uchimura-liveshop">
+              <img src="images/button_shop.png" alt="ショップ" class="pc">
+              <img src="images/button_shop_sp.png" alt="ショップ" class="sp">
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="section-sns">
+        <div class="button-sns-list">
+          <div class="button-sns-list__item">
+            <img src="images/button_share.png" alt="share">
+          </div>
+          <div class="button-sns-list__item">
+            <a href="http://line.me/R/msg/text/?内村文化祭 https://uchimura-live2021.selforder.live">
+              <img src="images/button_share_line.png" alt="share LINE">
+            </a>
+          </div>
+          <div class="button-sns-list__item">
+            <a href="http://twitter.com/share?url=https://uchimura-live2021.selforder.live&hashtags=内村文化祭">
+              <img src="images/button_share_twitter.png" alt="share Twitter">
+            </a>
+          </div>
+          <div class="button-sns-list__item">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://uchimura-live2021.selforder.live&t=内村文化祭">
+              <img src="images/button_share_facebook.png" alt="share Facebook">
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
