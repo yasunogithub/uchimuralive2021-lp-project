@@ -1,0 +1,41 @@
+@charset "UTF-8";
+html * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  color: inherit;
+  /* 親要素の色を継承 */
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input, select, textarea, button {
+  vertical-align: middle;
+  outline: 0;
+  /* ブラウザ初期のフォーカスアウトラインを消す */
+}

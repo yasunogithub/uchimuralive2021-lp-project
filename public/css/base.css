@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+body img {
+  width: 100%;
+}
+body a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .pc {
+    display: block;
+  }
+
+  .sp {
+    display: none;
+  }
+
+  .pc-flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  .pc-flex.-between {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .pc-flex-basis-25 {
+    flex-basis: 25%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .pc {
+    display: none;
+  }
+
+  .sp {
+    display: block;
+  }
+
+  .sp-flex {
+    display: flex;
+    justify-content: center;
+  }
+}
