@@ -8,7 +8,7 @@ const compileSass = () =>
         outputStyle: "expanded"
       })
     )
-    .pipe(dest("public/css"));
+    .pipe(dest("functions/public/css"));
 
 const watchSassFiles = () => watch("src/sass/**/*.scss", compileSass);
 
